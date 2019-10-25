@@ -1,0 +1,17 @@
+{
+  "name": "lanet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backend": "npm start --prefix server",
+    "frontend": "npm start --prefix front",
+    "start": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "author": "oleksii drozdiuk",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.0.0"
+  }
+}
