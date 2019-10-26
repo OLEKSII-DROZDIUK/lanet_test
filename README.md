@@ -8,6 +8,10 @@ QUICK START in local machine
 
 2) Run all project with command "npm start" in main folder(./)
 
+### Application AWS ubuntu + pm2
+
+[Link application](http://18.216.210.110:2188/)
+
 ### Package in front(React): 
 ```
     "@material-ui/core": "^4.5.1",
